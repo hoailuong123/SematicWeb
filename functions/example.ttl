@@ -1,0 +1,13 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:Video rdf:type ex:Video ;
+    ex:title "Title of the video" ;
+    ex:description "Description of the video" ;
+    ex:hasHashtag ex:Hashtag1, ex:Hashtag2 .
+
+ex:Hashtag1 rdf:type ex:Hashtag ;
+    ex:value "hashtag1" .
+
+ex:Hashtag2 rdf:type ex:Hashtag ;
+    ex:value "hashtag2" .

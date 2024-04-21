@@ -1,0 +1,14 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:loc="http://localhost:3000/">
+    <rdf:Description rdf:about="/user123">
+        <loc:commentsOn rdf:resource="/topic456"/>
+        <loc:likes rdf:resource="/topic456"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="/topic456">
+        <loc:commentCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</loc:commentCount>
+        <loc:commentCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</loc:commentCount>
+        <loc:likeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</loc:likeCount>
+        <loc:likeCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</loc:likeCount>
+    </rdf:Description>
+</rdf:RDF>

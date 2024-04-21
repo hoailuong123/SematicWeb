@@ -1,0 +1,9 @@
+PREFIX ex: <http://example.org/>
+
+SELECT ?video ?title ?description ?hashtag
+WHERE {
+    ?video rdf:type ex:Video ;
+           ex:title ?title ;
+           ex:description ?description ;
+           ex:hashtag ?hashtag .
+}

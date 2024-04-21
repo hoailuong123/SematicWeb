@@ -1,0 +1,8 @@
+@prefix : </#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ex: <>.
+
+ex:topic1 foaf:comments 4; foaf:likes 3 .
+
+ex:topic4 foaf:comments 0; foaf:likes 0 .
+
